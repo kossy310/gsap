@@ -3,19 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* 背景の黒 */
-.c-loader-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    z-index: 100;
-    display: grid;
-    place-items: center;
-    pointer-events: none;
-  }
+
 
 .title {
     position:relative;
@@ -23,28 +11,10 @@
     overflow: hidden;
 }
 
-.title span.box {
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-color: yellow;
-    z-index:10;
-}
-
-.image {
-    width:400px;
-    height:250px;
-    overflow: hidden;
-    margin-left:auto;
-}
-
-.image img {
-    width:400px;
-    object-fit: cover;
-}
-
-.animation-title span {
+.title span {
     display: inline-block;
+}
+
+.test {
+    height:100vh;
 }
